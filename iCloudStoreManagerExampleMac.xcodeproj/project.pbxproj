@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600D2132159321CF007610DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 600D2131159321CF007610DA /* Cocoa.framework */; };
+		600D213C159321CF007610DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 600D213A159321CF007610DA /* InfoPlist.strings */; };
+		600D213E159321CF007610DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 600D213D159321CF007610DA /* main.m */; };
+		600D2142159321CF007610DA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 600D2140159321CF007610DA /* Credits.rtf */; };
+		600D2145159321CF007610DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 600D2144159321CF007610DA /* AppDelegate.m */; };
+		600D2148159321CF007610DA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 600D2146159321CF007610DA /* MainMenu.xib */; };
+		600D2153159321EB007610DA /* iCloudStoreManager.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 600D2151159321EB007610DA /* iCloudStoreManager.xcdatamodel */; };
+		600D215915932251007610DA /* UbiquityStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 600D215815932251007610DA /* UbiquityStoreManager.m */; };
+		600D2166159326FA007610DA /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 600D2163159326FA007610DA /* Event.m */; };
+		600D2167159326FA007610DA /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 600D2165159326FA007610DA /* User.m */; };
+		6060CB65159357B600E27026 /* ContainerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6060CB63159357B600E27026 /* ContainerWindowController.m */; };
+		6060CB66159357B600E27026 /* ContainerWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6060CB64159357B600E27026 /* ContainerWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		600D212D159321CF007610DA /* iCloudStoreManagerExampleMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCloudStoreManagerExampleMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		600D2131159321CF007610DA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		600D2134159321CF007610DA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		600D2135159321CF007610DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		600D2136159321CF007610DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		600D2139159321CF007610DA /* iCloudStoreManagerExampleMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCloudStoreManagerExampleMac-Info.plist"; sourceTree = "<group>"; };
+		600D213B159321CF007610DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		600D213D159321CF007610DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		600D213F159321CF007610DA /* iCloudStoreManagerExampleMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCloudStoreManagerExampleMac-Prefix.pch"; sourceTree = "<group>"; };
+		600D2141159321CF007610DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		600D2143159321CF007610DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		600D2144159321CF007610DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		600D2147159321CF007610DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		600D2151159321EB007610DA /* iCloudStoreManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iCloudStoreManager.xcdatamodel; sourceTree = "<group>"; };
+		600D215715932251007610DA /* UbiquityStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UbiquityStoreManager.h; sourceTree = "<group>"; };
+		600D215815932251007610DA /* UbiquityStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UbiquityStoreManager.m; sourceTree = "<group>"; };
+		600D2162159326FA007610DA /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		600D2163159326FA007610DA /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		600D2164159326FA007610DA /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		600D2165159326FA007610DA /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		6060CB49159337DD00E27026 /* iCloudStoreManagerExampleMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iCloudStoreManagerExampleMac.entitlements; sourceTree = "<group>"; };
+		6060CB62159357B600E27026 /* ContainerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerWindowController.h; sourceTree = "<group>"; };
+		6060CB63159357B600E27026 /* ContainerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerWindowController.m; sourceTree = "<group>"; };
+		6060CB64159357B600E27026 /* ContainerWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContainerWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		600D212A159321CF007610DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600D2132159321CF007610DA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		600D2122159321CF007610DA = {
+			isa = PBXGroup;
+			children = (
+				600D2137159321CF007610DA /* iCloudStoreManagerExampleMac */,
+				600D2130159321CF007610DA /* Frameworks */,
+				600D212E159321CF007610DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		600D212E159321CF007610DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				600D212D159321CF007610DA /* iCloudStoreManagerExampleMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		600D2130159321CF007610DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				600D2131159321CF007610DA /* Cocoa.framework */,
+				600D2133159321CF007610DA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		600D2133159321CF007610DA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				600D2134159321CF007610DA /* AppKit.framework */,
+				600D2135159321CF007610DA /* CoreData.framework */,
+				600D2136159321CF007610DA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		600D2137159321CF007610DA /* iCloudStoreManagerExampleMac */ = {
+			isa = PBXGroup;
+			children = (
+				60979A3D15938AE900F08CAC /* model */,
+				600D215615932251007610DA /* iCloudStoreManager */,
+				6060CB62159357B600E27026 /* ContainerWindowController.h */,
+				6060CB63159357B600E27026 /* ContainerWindowController.m */,
+				600D2143159321CF007610DA /* AppDelegate.h */,
+				600D2144159321CF007610DA /* AppDelegate.m */,
+				600D2146159321CF007610DA /* MainMenu.xib */,
+				6060CB64159357B600E27026 /* ContainerWindow.xib */,
+				600D2138159321CF007610DA /* Supporting Files */,
+			);
+			path = iCloudStoreManagerExampleMac;
+			sourceTree = "<group>";
+		};
+		600D2138159321CF007610DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6060CB49159337DD00E27026 /* iCloudStoreManagerExampleMac.entitlements */,
+				600D2151159321EB007610DA /* iCloudStoreManager.xcdatamodel */,
+				600D2139159321CF007610DA /* iCloudStoreManagerExampleMac-Info.plist */,
+				600D213A159321CF007610DA /* InfoPlist.strings */,
+				600D213D159321CF007610DA /* main.m */,
+				600D213F159321CF007610DA /* iCloudStoreManagerExampleMac-Prefix.pch */,
+				600D2140159321CF007610DA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		600D215615932251007610DA /* iCloudStoreManager */ = {
+			isa = PBXGroup;
+			children = (
+				600D215715932251007610DA /* UbiquityStoreManager.h */,
+				600D215815932251007610DA /* UbiquityStoreManager.m */,
+			);
+			path = iCloudStoreManager;
+			sourceTree = "<group>";
+		};
+		60979A3D15938AE900F08CAC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				600D2162159326FA007610DA /* Event.h */,
+				600D2163159326FA007610DA /* Event.m */,
+				600D2164159326FA007610DA /* User.h */,
+				600D2165159326FA007610DA /* User.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		600D212C159321CF007610DA /* iCloudStoreManagerExampleMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 600D214E159321CF007610DA /* Build configuration list for PBXNativeTarget "iCloudStoreManagerExampleMac" */;
+			buildPhases = (
+				600D2129159321CF007610DA /* Sources */,
+				600D212A159321CF007610DA /* Frameworks */,
+				600D212B159321CF007610DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCloudStoreManagerExampleMac;
+			productName = iCloudStoreManagerExampleMac;
+			productReference = 600D212D159321CF007610DA /* iCloudStoreManagerExampleMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		600D2124159321CF007610DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = boxedfolder.com;
+			};
+			buildConfigurationList = 600D2127159321CF007610DA /* Build configuration list for PBXProject "iCloudStoreManagerExampleMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 600D2122159321CF007610DA;
+			productRefGroup = 600D212E159321CF007610DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				600D212C159321CF007610DA /* iCloudStoreManagerExampleMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		600D212B159321CF007610DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600D213C159321CF007610DA /* InfoPlist.strings in Resources */,
+				600D2142159321CF007610DA /* Credits.rtf in Resources */,
+				600D2148159321CF007610DA /* MainMenu.xib in Resources */,
+				6060CB66159357B600E27026 /* ContainerWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		600D2129159321CF007610DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600D213E159321CF007610DA /* main.m in Sources */,
+				600D2145159321CF007610DA /* AppDelegate.m in Sources */,
+				600D2153159321EB007610DA /* iCloudStoreManager.xcdatamodel in Sources */,
+				600D215915932251007610DA /* UbiquityStoreManager.m in Sources */,
+				600D2166159326FA007610DA /* Event.m in Sources */,
+				600D2167159326FA007610DA /* User.m in Sources */,
+				6060CB65159357B600E27026 /* ContainerWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		600D213A159321CF007610DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				600D213B159321CF007610DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		600D2140159321CF007610DA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				600D2141159321CF007610DA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		600D2146159321CF007610DA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				600D2147159321CF007610DA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		600D214C159321CF007610DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer: Heiko Dreyer (BW9VNFNF24)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7DFA96AB-9D6C-4AEA-9B3F-B9531356F781";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		600D214D159321CF007610DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer: Heiko Dreyer (BW9VNFNF24)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PROVISIONING_PROFILE = "7DFA96AB-9D6C-4AEA-9B3F-B9531356F781";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		600D214F159321CF007610DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iCloudStoreManagerExampleMac/iCloudStoreManagerExampleMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer: Heiko Dreyer (BW9VNFNF24)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCloudStoreManagerExampleMac/iCloudStoreManagerExampleMac-Prefix.pch";
+				INFOPLIST_FILE = "iCloudStoreManagerExampleMac/iCloudStoreManagerExampleMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B16552A9-A0C8-48E1-B2BE-C8DF8C870C10";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		600D2150159321CF007610DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iCloudStoreManagerExampleMac/iCloudStoreManagerExampleMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer: Heiko Dreyer (BW9VNFNF24)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCloudStoreManagerExampleMac/iCloudStoreManagerExampleMac-Prefix.pch";
+				INFOPLIST_FILE = "iCloudStoreManagerExampleMac/iCloudStoreManagerExampleMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B16552A9-A0C8-48E1-B2BE-C8DF8C870C10";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		600D2127159321CF007610DA /* Build configuration list for PBXProject "iCloudStoreManagerExampleMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600D214C159321CF007610DA /* Debug */,
+				600D214D159321CF007610DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		600D214E159321CF007610DA /* Build configuration list for PBXNativeTarget "iCloudStoreManagerExampleMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600D214F159321CF007610DA /* Debug */,
+				600D2150159321CF007610DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 600D2124159321CF007610DA /* Project object */;
+}
