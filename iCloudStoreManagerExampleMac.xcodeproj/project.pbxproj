@@ -257,7 +257,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer: Heiko Dreyer (BW9VNFNF24)";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -275,7 +275,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "7DFA96AB-9D6C-4AEA-9B3F-B9531356F781";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -286,7 +285,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer: Heiko Dreyer (BW9VNFNF24)";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -297,7 +296,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PROVISIONING_PROFILE = "7DFA96AB-9D6C-4AEA-9B3F-B9531356F781";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -306,12 +304,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = iCloudStoreManagerExampleMac/iCloudStoreManagerExampleMac.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer: Heiko Dreyer (BW9VNFNF24)";
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iCloudStoreManagerExampleMac/iCloudStoreManagerExampleMac-Prefix.pch";
 				INFOPLIST_FILE = "iCloudStoreManagerExampleMac/iCloudStoreManagerExampleMac-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "B16552A9-A0C8-48E1-B2BE-C8DF8C870C10";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -320,12 +317,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = iCloudStoreManagerExampleMac/iCloudStoreManagerExampleMac.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer: Heiko Dreyer (BW9VNFNF24)";
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iCloudStoreManagerExampleMac/iCloudStoreManagerExampleMac-Prefix.pch";
 				INFOPLIST_FILE = "iCloudStoreManagerExampleMac/iCloudStoreManagerExampleMac-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "B16552A9-A0C8-48E1-B2BE-C8DF8C870C10";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
